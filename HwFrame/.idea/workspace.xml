@@ -80,7 +80,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.CollidingDisks">
+  <component name="RunManager" selected="Application.Exercise4">
     <configuration name="Barnsley" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Barnsley" />
       <module name="COS 226" />
@@ -89,6 +89,11 @@
     </configuration>
     <configuration name="CollidingDisks" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="CollidingDisks" />
+      <module name="COS 226" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise4" />
       <module name="COS 226" />
       <method v="2" />
     </configuration>
