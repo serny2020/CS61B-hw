@@ -74,13 +74,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hello" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.Exercise4">
+  <component name="RunManager" selected="Application.Lists1Exercises">
     <configuration name="Barnsley" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Barnsley" />
       <module name="COS 226" />
@@ -94,6 +94,16 @@
     </configuration>
     <configuration name="Exercise4" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Exercise4" />
+      <module name="COS 226" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IntList" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="IntList" />
+      <module name="COS 226" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Lists1Exercises" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Lists1Exercises" />
       <module name="COS 226" />
       <method v="2" />
     </configuration>
