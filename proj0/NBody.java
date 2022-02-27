@@ -34,7 +34,6 @@ public class NBody {
         String imageToDraw = "images/starfield.jpg";
         StdDraw.setScale(-radius, radius);
 
-        /* Stamps three copies of advice.png in a triangular pattern. */
         StdDraw.picture(0, 0, imageToDraw);
         for (Planet p : planets) {
             p.draw();
