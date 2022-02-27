@@ -1,16 +1,15 @@
 public class NBody {
-    public static double readRadius(String file_name) {
-        In in = new In(file_name);
-        double planets = in.readDouble();
-        double radius = in.readDouble();
-        return radius;
+    public static double readRadius(String fileName) {
+        In in = new In(fileName);
+        in.readDouble(); // drop first line of planet number
+        return in.readDouble();
     }
 
-    public static Planet[] readPlanets(String file_name) {
-        In in = new In(file_name);
-        int n = (int) in.readDouble();
-        double radius = in.readDouble();
+    public static Planet[] readPlanets(String fileName) {
+        In in = new In(fileName);
+        int n = in.readInt(); // casting by readInt() automatically
         Planet[] planets = new Planet[n];
+        in.readDouble(); // drop next line of radius
         for (int i = 0; i < n; i++) {
             double xxPos = in.readDouble();
             double yyPos = in.readDouble();

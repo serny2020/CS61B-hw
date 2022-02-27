@@ -1,11 +1,15 @@
 public class Planet {
+    /**
+     * All numbers in this project are doubles; All instance variables and methods are
+     * required to be declared using public key world.
+     */
     public double xxPos;
     public double yyPos;
     public double xxVel;
     public double yyVel;
     public double mass;
     public String imgFileName;
-    static final double G = 6.67e-11;
+    private static final double G = 6.67e-11; // constant variable
 
     public Planet(double xP, double yP, double xV, double yV, double m, String img) {
         xxPos = xP;
@@ -27,9 +31,9 @@ public class Planet {
     }
 
     public double calcDistance(Planet a) {
-        double x_distance = this.xxPos - a.xxPos;
-        double y_distance = this.yyPos - a.yyPos;
-        double distance = Math.pow(x_distance, 2) + Math.pow(y_distance, 2);
+        double xDiatance = this.xxPos - a.xxPos;
+        double yDiatance = this.yyPos - a.yyPos;
+        double distance = Math.pow(xDiatance, 2) + Math.pow(yDiatance, 2);
         return Math.sqrt(distance);
     }
 
@@ -49,25 +53,25 @@ public class Planet {
     }
 
     public double calcNetForceExertedByX(Planet[] a) {
-        double net_force_x = 0;
+        double netForceX = 0;
         for (Planet s : a) {
             if (this.equals(s)) {
                 continue;
             }
-            net_force_x += this.calcForceExertedByX(s);
+            netForceX += this.calcForceExertedByX(s);
         }
-        return net_force_x;
+        return netForceX;
     }
 
     public double calcNetForceExertedByY(Planet[] a) {
-        double net_force_y = 0;
+        double netForceY = 0;
         for (Planet s : a) {
             if (this.equals(s)) {
                 continue;
             }
-            net_force_y += this.calcForceExertedByY(s);
+            netForceY += this.calcForceExertedByY(s);
         }
-        return net_force_y;
+        return netForceY;
     }
 
     public void update(double dt, double fX, double fY) {
