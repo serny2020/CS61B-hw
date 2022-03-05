@@ -74,13 +74,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../skeleton/skeleton-sp18/lab2setup" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../../Program Files/Git/usr/local/lift/lib" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Lists1Exercises">
+  <component name="RunManager" selected="Application.ArrayReverse">
+    <configuration name="ArrayReverse" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ArrayReverse" />
+      <module name="COS 226" />
+      <method v="2" />
+    </configuration>
     <configuration name="Barnsley" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Barnsley" />
       <module name="COS 226" />
@@ -104,6 +109,11 @@
     </configuration>
     <configuration name="Lists1Exercises" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Lists1Exercises" />
+      <module name="COS 226" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SLList" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="SLList_reverse" />
       <module name="COS 226" />
       <method v="2" />
     </configuration>
